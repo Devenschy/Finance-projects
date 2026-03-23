@@ -7,7 +7,7 @@ from fredapi import Fred
 from datetime import datetime
 
 # ── CONFIGURATION ─────────────────────────────────────────────────
-fred = Fred(api_key="b7b4ad206b7ff8f20cc635fb0bdcee34")
+fred = Fred(api_key="")
 start = "2020-01-01"
 end = datetime.today().strftime("%Y-%m-%d")
 
